@@ -1,4 +1,4 @@
-# HDF5 [[![Build status](https://ci.appveyor.com/api/projects/status/33o71itx8veq6lse?svg=true)](https://ci.appveyor.com/project/kudzurunner/conan-hdf5)
+# HDF5 [![Build status](https://ci.appveyor.com/api/projects/status/33o71itx8veq6lse?svg=true)](https://ci.appveyor.com/project/kudzurunner/conan-hdf5)
 
 
 
