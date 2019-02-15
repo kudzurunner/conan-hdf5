@@ -49,9 +49,10 @@ conan_basic_setup()''')
         self.copy("COPYING", src=self.name, keep_path=False)
 
     def package_info(self):
+        debug_suffix = ("_D" if self.settings.build_type=="Debug" else "")
         if self.options.shared:
-            self.cpp_info.libs = ["hdf5"]
+            self.cpp_info.libs = ["hdf5" + debug_suffix]
         else:
-            self.cpp_info.libs = ["libhdf5"]
+            self.cpp_info.libs = ["libhdf5" + debug_suffix]
         if tools.os_info.is_windows and self.options.shared:
             self.cpp_info.defines = ["H5_BUILT_AS_DYNAMIC_LIB"]
