@@ -4,7 +4,7 @@ import shutil
 
 class Hdf5Conan(ConanFile):
     name = "hdf5"
-    version = "1.10.4"
+    version = "1.10.5"
     license = "https://support.hdfgroup.org/ftp/HDF5/releases/COPYING"
     author = "KudzuRunner"
     url = "https://github.com/kudzurunner/conan-hdf5"
