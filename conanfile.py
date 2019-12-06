@@ -13,7 +13,7 @@ class Hdf5Conan(ConanFile):
     options = {"shared": [True, False]}
     default_options = "shared=True"
     generators = "cmake"
-    requires = "zlib/1.2.11@conan/stable"
+    requires = "zlib/1.2.11"
 
     build_name = "build"
 
